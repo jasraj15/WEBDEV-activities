@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+</head>
+
+<body>
+    <form>
+        <h1>Admission</h1>
+        <div>
+            <label for="name">Full Name:</label>
+            <input id="name" type="text">
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email">
+        </div>
+
+        <div>
+            <label for="Phone">Ph No.</label>
+            <input id="Phone" type="tel" maxlength="10" minlength="10">
+        </div>
+
+        <div>
+            <label for="age">age:</label>
+            <input id="age" type="number" min="15" max="60">
+        </div>
+
+        <div>
+            <label for="DOB">DOB:</label>
+            <input type="date" id="DOB" max="2010-01-01">
+        </div>
+
+        <div>
+            <p>
+                <label>Gender:</label>
+                <label for="male">Male:</label>
+                <input id="male" name="gender" type="radio">
+                <label for="Female">Female:</label>
+                <input id="Female" name="gender" type="radio" name="" id="">
+            </p>
+        </div>
+
+        <div>
+            <p>Services:</p>
+            <label for="bus">Bus Services:</label>
+            <input type="checkbox" id="bus">
+            <label for="accomodation">Accomodation:</label>
+            <input type="checkbox" id="accomodation">
+        </div>
+
+        <div>
+            <p>Blood Group:
+                <select>
+                    <option>B+</option>
+                    <option>B-</option>
+                </select>
+            </p>
+        </div>
+
+        <div>
+            <label for="text">Describe yourself in <span style="font-weight: bo;">200</span>words:</label>
+            <textarea></textarea>
+        </div>
+
+        <div>
+            <button>Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
